@@ -1,0 +1,16 @@
+.card {
+    background-color: $medBeige;
+    margin-top: 10px;
+    img {
+        margin: 5px;
+        height: auto;
+    }
+
+    &#info {
+        background-color: $lightBrown;
+    }
+
+    &#contact {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I fall in love with coffee</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm justify-content-center">
+            <img src="images/coffee.jpg" class="rounded float-left" alt="coffee">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="coffee.html">Coffee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <div class="card" id="contact">
+                <div class="card-body text-center">
+                    <h5>You can ask me anything you want!</h5>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Your email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <hr>
+                        <label>Knowledge about coffee</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                                Small
+                            </label>
+                        </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                Medium
+                            </label>
+                        </div>
+                            <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                Big
+                            </label>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Topic</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Coffee for alternatives</option>
+                                <option>Coffee for express</option>
+                                <option>Equipment</option>
+                                <option>Coffee places</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn mb-2">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

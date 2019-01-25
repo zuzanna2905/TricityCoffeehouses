@@ -1,0 +1,21 @@
+.navbar {
+    background-color: $darkBeige;
+    opacity: 0.9;
+    border: { 
+        color: $darkBeige;
+    }
+    img {
+        height: 70px;
+    }
+}
+
+a.nav-link{
+    color: $black;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+    &.active {
+        background-color : $medBeige;
+        border-radius: 10%;
+    }
+}

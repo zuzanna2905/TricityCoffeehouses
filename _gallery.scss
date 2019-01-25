@@ -1,0 +1,18 @@
+.carousel-inner{
+    img{
+        margin-top: 25px;
+        height: 350px;
+        width: auto;
+    }
+}
+
+.carousel-caption{
+    color: $darkBrown;
+    position: relative;
+    right: 0%;
+    left: 0%;
+}
+
+a.carousel-control-prev {
+    color: $darkBrown;
+}
