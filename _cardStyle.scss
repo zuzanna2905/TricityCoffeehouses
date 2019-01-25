@@ -1,5 +1,6 @@
 .card {
     background-color: $medBeige;
+    background-image: url(#{$imgPath}/medBeige.png);
     margin-top: 10px;
     img {
         margin: 5px;
@@ -8,6 +9,7 @@
 
     &#info {
         background-color: $lightBrown;
+        background-image: url(#{$imgPath}/lightBrown.png);
     }
 
     &#contact {

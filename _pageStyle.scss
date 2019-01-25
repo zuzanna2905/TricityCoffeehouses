@@ -1,9 +1,11 @@
 body{
     background-color: $lightBeige;
+    background-image: url(#{$imgPath}/backgroundimg.png);
     height: 100%;
     width: 100%;
 }
 
 button{
     background-color: $lightBeige;
+    background-image: url(#{$imgPath}/buttonbg.png);
 }

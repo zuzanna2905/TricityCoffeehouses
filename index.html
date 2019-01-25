@@ -7,22 +7,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm justify-content-center">
-            <img src="images/coffee.jpg" class="rounded float-left" alt="coffee">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="coffee.html">Coffee</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/coffee.jpg" class="rounded float-left d-md-none d-block" alt="coffee">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">   
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coffee.html">Coffee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container-fluid">
             <div class="card-deck">
@@ -38,7 +45,7 @@
                             person who is making the coffee.
                         </p>
                     </div>
-                    <img src="images/coffee1.jpg" class="rounded img-fluid float-left" alt="coffee">
+                    <img src="images/coffee1.jpg" class="rounded img-fluid float-left d-none d-md-block" alt="coffee">
                 </div>
                 <div class="card">
                     <div class="card-body text-center">
@@ -50,7 +57,7 @@
                             because in my opinion it is easier to feel the aromas than in african coffees. 
                         </p>
                     </div>
-                    <img src="images/coffee5.jpg" class="rounded img-fluid float-left" alt="coffee">
+                    <img src="images/coffee5.jpg" class="rounded img-fluid float-left d-none d-md-block" alt="coffee">
                 </div>
                 <div class="card">
                     <div class="card-body text-center">
@@ -62,7 +69,7 @@
                             if you one day choose to follow the coffee path you will never be able to come back.
                         </p>
                     </div>
-                    <img src="images/coffee6.jpg" class="rounded img-fluid float-left" alt="coffee">
+                    <img src="images/coffee6.jpg" class="rounded img-fluid float-left d-none d-md-block" alt="coffee">
                 </div>
                 <div class="card">
                     <div class="card-body text-center">
@@ -76,9 +83,13 @@
                             appropriate beans and of course willingnes. 
                         </p>
                     </div>
-                    <img src="images/coffee4.jpg" class="rounded img-fluid float-left" alt="coffee">
+                    <img src="images/coffee4.jpg" class="rounded img-fluid float-left d-none d-md-block" alt="coffee">
                 </div> 
             </div>       
         </div>
+ 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>

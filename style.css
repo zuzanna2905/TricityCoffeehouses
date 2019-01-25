@@ -1,13 +1,16 @@
 body {
   background-color: #e1cf79;
+  background-image: url(images/backgroundimg.png);
   height: 100%;
   width: 100%; }
 
 button {
-  background-color: #e1cf79; }
+  background-color: #e1cf79;
+  background-image: url(images/buttonbg.png); }
 
 .navbar {
   background-color: #c99942;
+  background-image: url(images/navbackground.png);
   opacity: 0.9;
   border-color: #c99942; }
   .navbar img {
@@ -20,16 +23,22 @@ a.nav-link {
   margin-right: 10px; }
   a.nav-link.active {
     background-color: #e2a446;
+    background-image: url(images/buttonbg.png);
     border-radius: 10%; }
+
+button.navbar-toggler {
+  padding-right: 35px; }
 
 .card {
   background-color: #e2a446;
+  background-image: url(images/medBeige.png);
   margin-top: 10px; }
   .card img {
     margin: 5px;
     height: auto; }
   .card#info {
-    background-color: #b0713e; }
+    background-color: #b0713e;
+    background-image: url(images/lightBrown.png); }
   .card#contact {
     margin-bottom: 10px; }
 
@@ -48,11 +57,13 @@ a.carousel-control-prev {
   color: #592c19; }
 
 table {
-  margin-top: 10px;
-  border-color: #b0713e; }
+  margin-top: 10px; }
 
 thead {
-  background-color: #592c19; }
+  background-color: #592c19;
+  background-image: url(images/darkBrown.png);
+  color: white; }
 
 tbody {
-  background-color: #b0713e; }
+  background-color: #b0713e;
+  background-image: url(images/lightBrown.png); }

@@ -1,5 +1,6 @@
 .navbar {
     background-color: $darkBeige;
+    background-image: url(#{$imgPath}/navbackground.png);
     opacity: 0.9;
     border: { 
         color: $darkBeige;
@@ -16,6 +17,11 @@ a.nav-link{
     margin-right: 10px;
     &.active {
         background-color : $medBeige;
+        background-image: url(#{$imgPath}/buttonbg.png);
         border-radius: 10%;
     }
+}
+
+button.navbar-toggler{
+    padding-right: 35px;
 }

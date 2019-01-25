@@ -1,12 +1,14 @@
 table{
     margin-top: 10px;
-    border-color: $lightBrown;
 }
 
 thead{
     background-color: $darkBrown;
+    background-image: url(#{$imgPath}/darkBrown.png);
+    color: white;
 }
 
 tbody{
     background-color: $lightBrown;
+    background-image: url(#{$imgPath}/lightBrown.png);
 }

@@ -4,28 +4,32 @@
         <title>I fall in love with coffee</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-sm justify-content-center">
-            <img src="images/coffee.jpg" class="rounded float-left" alt="coffee">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="coffee.html">Coffee</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md justify-content-center">
+            <a class="navbar-brand" href="index.html">
+                    <img src="images/coffee.jpg" class="rounded float-left d-md-none d-block" alt="coffee">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">   
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="coffee.html">Coffee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
             <div id="coffeeGallery" class='carousel slide carousel-fade' data-ride="carousel" >
@@ -39,20 +43,11 @@
                     <li data-target="#coffeeGallery" data-slide-to="6"></li>
                 </ul>
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="view">
-                            <img class="d-block mx-auto rounded" src="images/methods.jpg" alt="Methods">
-                        </div>
-                        <div class="carousel-caption">
-                            <h3>Methods</h3>
-                            <p>We can choose between a lot of methods</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item  active">
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee1.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Kreatywna Cafe</h3>
                             <p>My favourite coffee spot with great coffee & best cake</p>
                         </div>
@@ -61,7 +56,7 @@
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee2.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Aeropress & Drip</h3>
                             <p>Some of my coffee equipment</p>
                         </div>
@@ -70,7 +65,7 @@
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee3.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Mill, beans & weight</h3>
                             <p>More staff</p>
                         </div>
@@ -79,7 +74,7 @@
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee7.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Cake</h3>
                             <p>The best friend of coffee</p>
                         </div>
@@ -88,7 +83,7 @@
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee5.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Fellow Prismo Aeropress Attachment</h3>
                             <p>New face of espresso</p>
                         </div>
@@ -97,9 +92,18 @@
                         <div class="view">
                             <img class="d-block mx-auto rounded" src="images/coffee6.jpg" alt="Coffee">
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3>Coffee & Cake</h3>
                             <p>Beautiful color of coffee & delicious cake once again</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img class="d-block mx-auto rounded" src="images/methods.jpg" alt="Methods">
+                        </div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Methods</h3>
+                            <p>We can choose between a lot of methods</p>
                         </div>
                     </div>
                 </div>
@@ -111,5 +115,9 @@
                 </a>
             </div>
         </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </body>
 </html>
