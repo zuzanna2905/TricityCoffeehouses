@@ -2,6 +2,7 @@
     background-color: $medBeige;
     background-image: url(#{$imgPath}/medBeige.png);
     margin-top: 10px;
+    justify-content: space-around;
     img {
         margin: 5px;
         height: auto;
